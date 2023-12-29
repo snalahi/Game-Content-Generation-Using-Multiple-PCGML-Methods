@@ -12,7 +12,7 @@ Game content generation using multiple Procedural Content Generation via Machine
 - Gather diverse and relevant datasets related to the content to be generated (e.g., existing game assets, player behavior, level designs). Clean, preprocess, and format the data for training the machine learning models.
 
 **3. Select PCGML Techniques**:
-Choose appropriate machine learning methods based on the type of content to be generated. Examples include:
+/nChoose appropriate machine learning methods based on the type of content to be generated. Examples include:
 - ***Generative Adversarial Networks (GANs)***: For generating images, textures, characters, or environments.
 - ***Recurrent Neural Networks (RNNs)***: Suitable for creating sequences like dialogues, storylines, or music.
 - ***Variational Autoencoders (VAEs)***: Used to generate diverse content by learning data distributions.
@@ -28,7 +28,7 @@ Choose appropriate machine learning methods based on the type of content to be g
 - Integrate the generated content into the game engine while maintaining compatibility and consistency with existing game elements. Ensure seamless incorporation and functional alignment within the game environment.
 
 **7. Iterative Improvement**:
-Gather feedback from testing and gameplay experiences to refine the generated content. Continuously iterate on the models, data, or algorithms to improve the quality, diversity, and relevance of the generated content.
+- Gather feedback from testing and gameplay experiences to refine the generated content. Continuously iterate on the models, data, or algorithms to improve the quality, diversity, and relevance of the generated content.
 
 **8. Optimization and Deployment**:
 - Optimize the PCGML pipeline for efficiency and scalability. Deploy the finalized models and content generation processes within the game development workflow.
