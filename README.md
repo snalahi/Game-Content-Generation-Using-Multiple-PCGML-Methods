@@ -5,13 +5,14 @@ Game content generation using multiple Procedural Content Generation via Machine
 
 ### Workflow
 
-**1. Define Content Requirements**: Identify the types of content needed for the game—levels, maps, characters, narratives, etc.—and determine the scope and specifics of each element.
+**1. Define Content Requirements**: 
+- Identify the types of content needed for the game, in this case levels and maps are within the scope and specifics of each element.
 
 **2. Data Collection and Preprocessing**:
-        Gather diverse and relevant datasets related to the content to be generated (e.g., existing game assets, player behavior, level designs).
+- Gather diverse and relevant datasets related to the content to be generated (e.g., existing game assets, player behavior, level designs).
         Clean, preprocess, and format the data for training the machine learning models.
 
-    Select PCGML Techniques:
+**3. Select PCGML Techniques**:
         Choose appropriate machine learning methods based on the type of content to be generated. Examples include:
             Generative Adversarial Networks (GANs): For generating images, textures, characters, or environments.
             Recurrent Neural Networks (RNNs): Suitable for creating sequences like dialogues, storylines, or music.
