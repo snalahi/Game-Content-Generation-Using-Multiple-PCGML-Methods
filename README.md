@@ -1,7 +1,7 @@
 # Generation of Functional Game Contents Using Procedural Content Generation via Machine Learning (PCGML)
 
 ### About
-Game content generation using Procedural Content Generation via Machine Learning (PCGML) refers to the utilization of various machine learning techniques to autonomously create diverse and engaging content for video games. This project has been set to explore new opportunities for generating high quality game contents especially functional contents such as game levels and game maps without human involvement. Multiple PCGML methods have been utilized including neural networks, long short-term memory (LSTM) networks, autoencoders, deep convolutional networks, multi-dimensional markov chains, clustering and matrix factorization to get the optimum results. The concept involves using multiple machine learning methods or a combination of techniques to produce content that enhances gameplay, increases replayability and enriches the overall gaming experience. Following is a process flow of how it can be achieved:
+Game content generation using Procedural Content Generation via Machine Learning (PCGML) refers to the utilization of various machine learning techniques to autonomously create diverse and engaging content for video games. This project has been set to explore new opportunities for generating high quality game contents especially functional contents such as game levels and game maps without human involvement. Multiple PCGML methods have been utilized including neural networks, generative adversarial networks (GANs), long short-term memory (LSTM) networks, autoencoders, deep convolutional networks, multi-dimensional markov chains, clustering and matrix factorization to get the optimum results. The concept involves using multiple machine learning methods or a combination of techniques to produce content that enhances gameplay, increases replayability and enriches the overall gaming experience. Following is a process flow of how it can be achieved:
 
 ### Workflow
 
@@ -14,9 +14,9 @@ Game content generation using Procedural Content Generation via Machine Learning
 **3. Select PCGML Techniques**:
 <br /> Choose appropriate machine learning methods based on the type of content to be generated. Examples include:
 - ***Generative Adversarial Networks (GANs)***: For generating images, textures, characters or environments.
-- ***Recurrent Neural Networks (RNNs)***: Suitable for creating sequences like dialogues, storylines or music.
+- ***Recurrent Neural Networks (RNNs)***: LSTM networks are used as a type of RNNs which is suitable for creating sequences like dialogues, storylines or music.
 - ***Variational Autoencoders (VAEs)***: Used to generate diverse content by learning data distributions.
-- ***Deep Reinforcement Learning (DRL)***: Creating adaptive and intelligent in-game elements, such as NPCs with evolving behaviors.
+- ***Deep Convolutional Networks (DCNs)***: For generating game environment, levels and maps through learning from existing resources. 
 
 **4. Model Training**:
 - Train the selected machine learning models using the prepared datasets. Adjust model parameters and architectures to optimize content generation while ensuring diversity and quality.
